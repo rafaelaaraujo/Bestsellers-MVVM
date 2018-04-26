@@ -2,15 +2,12 @@ package com.bestsellers.base
 
 import android.content.Intent
 import android.support.test.rule.ActivityTestRule
-import android.support.test.runner.AndroidJUnit4
 import com.bestsellers.data.local.AppDatabase
 import com.bestsellers.main.MainActivity
 import com.bestsellers.util.GOODREADS_BASE_URL
 import com.bestsellers.util.NY_BASE_URL
 import com.squareup.okhttp.mockwebserver.MockWebServer
 import org.junit.Rule
-import org.junit.runner.RunWith
-
 
 /**
  * Created by Rafaela Araujo
