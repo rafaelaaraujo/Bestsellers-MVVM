@@ -31,10 +31,11 @@ class BookGenreViewModelTest: BaseTest() {
     fun getGenreList() {
         `when`(service.getGenreList()).thenReturn(just(getMockGenreList()))
 
-        viewModel.getGenresList().observeForever(observer)
+        var test = viewModel.getGenresList()
+        test.observeForever(observer)
         viewModel.requestList()
 
-        assert(viewModel.getGenresList().value == getMockGenreList().results)
+        assert(test.value == getMockGenreList().results)
     }
 
     @Test
