@@ -44,6 +44,6 @@ class BestSellersViewModelTest : BaseTest() {
         return BestSellers(Results(listOf(getEmptyBook())))
     }
 
-    private fun getEmptyBook() = Book("test", 1, 3, "", "", "", "", "", ArrayList())
+    private fun getEmptyBook() = Book("tests", 1, 3, "", "", "", "", "", ArrayList())
 
 }
