@@ -26,7 +26,7 @@ before_script:
 
 script:
   - chmod +x ./gradlew
-  - ./gradlew test
+#  - ./gradlew test
   - ./gradlew connectedAndroidTest
 
 after_success:
