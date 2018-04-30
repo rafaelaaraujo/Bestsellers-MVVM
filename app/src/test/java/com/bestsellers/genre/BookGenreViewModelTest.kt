@@ -31,7 +31,7 @@ class BookGenreViewModelTest: BaseTest() {
     fun getGenreList() {
         `when`(service.getGenreList()).thenReturn(just(getMockGenreList()))
 
-//        viewModel.getGenresList().observeForever(observer)
+        viewModel.getGenresList().observeForever(observer)
         viewModel.requestList()
 
         assert(viewModel.getGenresList().value != null)
