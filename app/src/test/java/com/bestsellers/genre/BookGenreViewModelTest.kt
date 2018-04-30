@@ -29,7 +29,8 @@ class BookGenreViewModelTest: BaseTest() {
 
     @Test
     fun getGenreList() {
-        `when`(service.getGenreList()).thenReturn(just(getMockGenreList()))
+        val genreList = getMockGenreList()
+        `when`(service.getGenreList()).thenReturn(just(genreList))
 
         viewModel.getGenresList().observeForever(observer)
         viewModel.requestList()
