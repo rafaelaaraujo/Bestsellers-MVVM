@@ -2,7 +2,7 @@
 
 Used [The New York Times Books API](https://developer.nytimes.com/books_api.json) , 
 
-- Model View ViewModel Architecture Pattern
+- Model View ViewModel Architecture (MVVM)
 - Architecture components (LiveData, LifeCycle and Room libraries)
 - Koin for Dependency Injection
 - RxJava/RxAndroid
