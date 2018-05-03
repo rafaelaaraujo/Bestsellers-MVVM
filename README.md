@@ -2,10 +2,8 @@
 
 Used [The New York Times Books API](https://developer.nytimes.com/books_api.json) , 
 
-- MVVM pattern with Architecture components
-- LiveData
-- LiveCycle
-- Room
+- Model View ViewModel Architecture Pattern
+- Architecture components (LiveData, LiveCycle and Room libraries)
 - Koin for Dependency Injection
 - RxJava/RxAndroid
 - Retrofit 2
